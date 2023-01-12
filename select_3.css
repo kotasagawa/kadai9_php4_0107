@@ -1,0 +1,104 @@
+body {
+  background: #f7f9fd;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#search-wrapper {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#hello {
+  margin: 0;
+  text-align: left;
+  line-height: 0;
+}
+
+.hdr {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+
+}
+
+/* header nav h1 {
+  font-family: 'Noto Sans JP';
+} */
+
+.hdr a {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.date {
+  font-size: 7px;
+  margin-bottom: 5px;
+}
+
+.contents {
+  background-color: white;
+    box-shadow: 0 1em 2em rgba(28, 0, 80, 0.1);
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+  perspective: 100px;
+  transform-style: preserve-3d;
+  transition: transform .8s;
+  border-radius: 0.6em;
+}
+
+.contents:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+	transform: translateY(-0.1875em);
+}
+
+.card-front, .card-back p {
+  margin-bottom: 5px;
+}
+
+#back-outer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#back {
+  background-color: white;
+  text-align: center;
+  border: 1px solid #164de3;
+  padding: 10px 30px;
+  color: #164de3;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.show-hide-btn {
+  display: block;
+  background-color: #5a82f0;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.6em 0;
+  border-radius: 0.3em;
+}
+
+.hide {
+  display: none;
+}
+
+.btn-pronounce {
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
